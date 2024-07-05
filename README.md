@@ -17,5 +17,6 @@ With the program open, run main.py. Every time the window loses focus, the comma
 
 ## Diagram 
 The operation of the program can be summarized in the following diagram.
+
 ![diagram](https://github.com/hugoruizsanchez/pladur/assets/120595249/6bf4717c-1140-4dd5-9226-573d65e974bd)ble format: that is, from image to text.
 
