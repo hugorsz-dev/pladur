@@ -1,5 +1,3 @@
-Este proyecto está licenciado bajo la [Licencia MIT](https://opensource.org/licenses/MIT) - ver el archivo [LICENSE](LICENSE) para más detalles.
-
 # Pladur - Non-selectable text analyzed with AI.
 
 This system allows you to make queries through AI to the text displayed on the screen of a specific window. It is aimed at video games or other types of programs where the text is not selectable. To achieve this goal, it uses the Tesseract Open Source OCR Engine and its Python library, pythesseract.
@@ -20,7 +18,7 @@ With the program open, run main.py. Every time the window loses focus, the comma
 ## Diagram 
 The operation of the program can be summarized in the following diagram.
 
-![diagram](https://github.com/hugoruizsanchez/pladur/assets/120595249/6bf4717c-1140-4dd5-9226-573d65e974bd)ble format: that is, from image to text.
+![diagram](https://github.com/hugoruizsanchez/pladur/assets/120595249/6bf4717c-1140-4dd5-9226-573d65e974bd)
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
