@@ -9,8 +9,8 @@ This system allows you to make queries through AI to the text displayed on the s
 - And within that folder, in "tessdata" should be the "spa.traineddata" file (or the language of your preference), downloadable at: https://github.com/tesseract-ocr/tessdata
 
 ## Configuration
-The file `config.json` will establish the path to be accessed to run Tesseract, the query made by the AI, and the name of the window. It is essential that it is correctly filled out to avoid errors during execution.
-The file `headers.json` contains information regarding the API through which the flow of information will be redirected. The format is in RAPID API format. Any system with a compatible format can be used, or you can modify the code as needed!
+- The file `config.json` will establish the path to be accessed to run Tesseract, the query made by the AI, and the name of the window. It is essential that it is correctly filled out to avoid errors during execution.
+- The file `headers.json` contains information regarding the API through which the flow of information will be redirected. The format is in RAPID API format. Any system with a compatible format can be used, or you can modify the code as needed!
 
 ## Execution
 With the program open, run main.py. Every time the window loses focus, the command terminal will return the output from the AI.
