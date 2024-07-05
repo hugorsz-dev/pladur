@@ -1,6 +1,6 @@
 # pladur
 
-> [!warning]
+> [!note]
 > w
 Pladur: IA querys for text games, with tesseract
 
