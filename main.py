@@ -115,23 +115,20 @@ query = ""
 
 while game_window():
     time.sleep(3)
-
-    # Take the screenshot.
+    
     try:
+        # Take the screenshot.
         screenshot(game_window())
 
         # Interpret the log
-
         image = Image.open('tmp.png')
         log = pytesseract.image_to_string(image, lang='spa')
 
         # Post-process the log to compress it and eliminate possible garbage records.
-
         lines = log.split('\n')
         non_space_lines = [line for line in lines if not line.isspace() and len(line.strip()) >= 5]
 
         # Insert query
-
         query = query + ' '.join(non_space_lines)
         makeQuery = True
 
@@ -140,10 +137,10 @@ while game_window():
             queryCounter = 0
             query = ""
             makeQuery = False
-
+            
         if makeQuery:
             print("Making summary query:")
-
             print(query_rapid_api(config["context"] + query))
+            
             query = ""
             makeQuery = False
